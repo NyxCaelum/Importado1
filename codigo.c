@@ -36,6 +36,9 @@ int main( int argc, char *argv[] )
       break;
       case 4: {
 	 printf("Test =%d Probando caso #4\n",d);
+	 int color = 0;
+	 int *pointer = 0;
+	 color = *pointer;
       }
       break;
       case 5: {
