@@ -32,8 +32,9 @@ int main( int argc, char *argv[] )
       case 3: {
 	 printf("Test =%d Probando caso #3\n",d);
       }
-      break;
 
+	 printf("Test =%d Probando caso #4\n",d);
+      }
       break;
       case 5: {
 	 printf("Test =%d Probando caso #5\n",d);
