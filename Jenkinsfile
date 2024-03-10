@@ -37,7 +37,7 @@ pipeline {
         stage('deploy') {
             when {
                 allOf {
-                    branch 'master'
+                    branch 'main'
                     not { expression { currentBuild.result == 'FAILED' } }
                 }
             }
